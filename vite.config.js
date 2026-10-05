@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/korean-space-game-noserver/', // 💡 반드시 '/' 로 지정하거나 이 줄을 삭제해야 합니다.
+  base: '/', // 💡 반드시 '/' 로 지정하거나 이 줄을 삭제해야 합니다.
 })
